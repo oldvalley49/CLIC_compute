@@ -1,0 +1,6 @@
+data/
+logs/
+output/
+plots/
+slurm-*
+.DS_Store
