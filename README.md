@@ -1,14 +1,15 @@
-# ENCODE_score
+# Computing CLIC Scores
 This repository contains code for computing CLIC scores used to guide feature selection in integration scRNA-seq and scATAC-seq data. 
+For more details, please check our preprint: link pending.
 
 Software: link pending
-Preprint: link pending
+
 Benchmark: link pending
 
 # Reproducing
 For those who may want to recompute CLIC scores with new/additional data, please use the following steps
 
-1. Download the ENCODE raw sequencing data
+1. Download the raw sequencing data
 2. Process using Cell Ranger and deposit the output in `data/{species}/` for human and mouse respectively
 3. Add accession numbers in `ENCODE_human.txt` or `ENCODE_mouse.txt`
 4. For each species, run `init_seurat.sh`, `integrate_harmonny.sh`, `pseudobulk.sh`
